@@ -4,3 +4,10 @@ The load event is commonly used to trigger scripts that access the contents of t
 ## Components that make the app run
 * Note that the event listener is attached to the window object nothe document object as this can cause cross-browser campatibility issues.
 * If the script element is at the end of the HTML page, then the DOM would have loaded the form elements before the script runs, and there would be no need to wait for the load event.
+
+## How to run the app?
+* In your own terminal:
+```
+git clone https://github.com/bostonhuman/javascript-load
+```
+* Open `load.html` to run the app.
